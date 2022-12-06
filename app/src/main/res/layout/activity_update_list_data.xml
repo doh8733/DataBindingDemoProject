@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="user"
+            type="com.example.databindingdemoproject.User" />
+        <variable
+            name="viewmodel"
+            type="com.example.databindingdemoproject.observerable.ViewModels" />
+    </data>
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".observerable.demo2.UpdateListDataActivity">
+    <EditText
+        android:hint="Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@={viewmodel.name}"
+        />
+    <EditText
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@={viewmodel.email}"/>
+    <EditText
+        android:hint="Url image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@={viewmodel.image}"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add User"
+        android:onClick="@{() ->viewmodel.addUser()}"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
+</layout>

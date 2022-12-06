@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Flutter/DataBindingDemoProject/app/src/main/res/layout/activity_add_and_update_data_in_list.xml" value="0.1" />
+        <entry key="..\:/Flutter/DataBindingDemoProject/app/src/main/res/layout/activity_add_update_data.xml" value="0.25416666666666665" />
+        <entry key="..\:/Flutter/DataBindingDemoProject/app/src/main/res/layout/activity_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Flutter/DataBindingDemoProject/app/src/main/res/layout/activity_layout_binding.xml" value="0.16" />
+        <entry key="..\:/Flutter/DataBindingDemoProject/app/src/main/res/layout/activity_list_data.xml" value="0.25416666666666665" />
+        <entry key="..\:/Flutter/DataBindingDemoProject/app/src/main/res/layout/activity_list_data2.xml" value="0.253125" />
+        <entry key="..\:/Flutter/DataBindingDemoProject/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Flutter/DataBindingDemoProject/app/src/main/res/layout/activity_update_list_data.xml" value="0.14049586776859505" />
+        <entry key="..\:/Flutter/DataBindingDemoProject/app/src/main/res/layout/activity_update_uiactivity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Flutter/DataBindingDemoProject/app/src/main/res/layout/activity_update_uiobserverable.xml" value="0.25416666666666665" />
+        <entry key="..\:/Flutter/DataBindingDemoProject/app/src/main/res/layout/content_main.xml" value="0.2" />
+        <entry key="..\:/Flutter/DataBindingDemoProject/app/src/main/res/layout/item_user.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
